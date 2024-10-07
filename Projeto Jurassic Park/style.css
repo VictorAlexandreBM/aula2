@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #123123;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+header .container {
+    display:flex;
+    width:80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-image: url("images/jp_topoFundo.jpg")
+}
+
+nav{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 30px 30px;
+    padding: 10px 80px;
+    background-image: url("images/jp_menuFundo.jpg");
+    color:white;
+    border: white 2px solid;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+}
+
+.nav_link {
+    color:white;
+    text-decoration:none;
+}
+#logoImg {
+    margin:0px 20px;
+}
+
+h1{
+    text-align:center;
+}
+p{
+    text-align:justify;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+#sec1Heading{
+    height:175px;
+    background-color:#580404;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#sec1Heading h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:64px;
+}
+.card{
+    background-color:rgb(255, 255, 255);
+    padding: 60px;
+    display:flex;
+}
+.card .film_img_container{
+    margin-right:60px;
+}
+.card p,h2 {
+    
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+.dif_card .film_img_container{
+    margin-right: 0px;
+    margin-left: 60px;
+}
+.card img{
+    border: red 7px solid;
+}
+.dif_card img{
+    border: yellow 7px solid;
+} 
+.dif_card{
+    background-color:rgb(104, 104, 104);
+    color:white;
+}
+
+.film_img_container{
+    display:inline;
+}
+.film_description_container{ 
+}
+
+#section2{
+    margin-top:40px;
+}
+#section2 h1{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size:48px;
+}
+
+#tableSec2{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin: 40px auto;
+    font-size:20px;
+}
+
+#tableSec2 th{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    padding:10px 40px;
+    background-color:#333333;
+    border:black solid 2px;
+
+}
+#tableSec2 tr{
+    background-color:#999999;
+}
+#tableSec2 .dif_row{
+    background-color:#dddd00;
+}
+#tableSec2 td{
+    font-family:'Times New Roman', Times, serif;
+    padding:10px 40px;
+    border:black solid 2px;
+}
+footer .container{
+    background-image: url(images/jp_topoFundo.jpg);
+    color:white;
+    text-align:center;
+    padding: 20px 0;
+    margin: 20px auto;
+    font-weight:bolder;
+    font-size:20px;
+}
