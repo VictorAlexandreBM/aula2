@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1, h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#header{
+    background-color:rgb(47, 47, 47);
+}
+
+#header .container {
+    display:flex;
+    justify-content: center;
+    background-color: rgb(47, 47, 47);
+}
+
+#nav{
+    display:flex;
+    justify-content: center;    
+}
+
+.nav_link{
+    text-align:center;
+    flex-grow:1;
+    background-color:rgb(247, 94, 94);
+    padding:10px 5px;
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav_link:hover{
+    background-color: rgb(196, 67, 67);
+}
+
+#section1{
+    background-color: rgb(47, 47, 47);
+}
+
+#section1 .container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#sec1Heading{
+    text-align:center;
+    flex-grow:1;
+    flex-basis:100%;   
+    color: rgb(255, 30, 30);
+}
+
+.card{
+    display:flex;
+    flex-wrap:wrap;
+    flex-basis: 48%;
+    justify-content: center;
+    padding: 40px;
+    background-color:white;
+    margin:10px 1%;
+    border-radius: 10px;
+}
+
+@media (max-width: 850px){
+    .card{
+        flex-basis: 100%;
+    }
+}
+
+.film_img{
+    max-width:100%;
+}
+
+.film_img_container{
+    flex-basis:100%;
+    display:flex;
+    justify-content: center;
+    margin-bottom:30px;
+}
+
+.card h2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    margin-bottom: 20px;
+}
+
+.card p {
+    text-align: justify;
+    font-size: 18px;
+        
+}
+
+#section2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    background-color: rgb(255, 88, 88);
+}
+
+#sec2Heading{
+    text-align:center;  
+    margin: 30px;
+    flex-grow:1;
+    flex-basis:100%;  
+    color: white; 
+}
+
+#tableSec2{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    background-color:rgb(255, 255, 255);
+    margin-bottom:20px;
+    border-radius:10px;
+    border: 1px solid black;
+    width:50%;
+    
+}
+
+#tableSec2 *{
+    padding:20px;
+}
+
+th{
+    color: rgb(255, 30, 30);
+    border: 1px solid black;
+}
+
+tr{
+}
+
+td{
+    border: 1px solid black;
+}
+
+.dif_row{
+    background-color:rgb(211, 211, 211);
+}
+
+.container{
+    width:70%;
+    margin:0 auto;
+    padding:20px;
+}
+
+footer{
+    padding:20px;
+    color:rgb(235, 235, 191);
+    text-align:center;
+    background-color: rgb(47, 47, 47);
+}
+
+/* login.html */ 
+
+#sectionLogin .container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#sectionLogin{
+    background-color: rgb(77, 77, 77);
+}
+#loginContainer{
+    background-color:rgb(255, 255, 255);
+    border-radius:20px;
+    width:50%;
+}
+#loginHeader{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    height:20%;
+    font-size: 30px;
+    text-align:center;
+    background-color:rgb(247, 94, 94);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}   
+#loginHeader span{
+    color:white;
+    font-weight: bolder;
+}
+#loginForm{
+    padding: 40px 40px 70px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.input_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+#loginForm label {
+    font-size: 20px;
+}
+
+#loginForm input {
+    padding:8px;
+    line-height:15px;
+    border-radius: 5px;
+}
+
+.buttonLogin{
+    padding:20px;
+    text-align:center;
+    background-color:rgb(247, 94, 94);
+    padding:10px 5px;
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttonLogin:hover{
+    background-color: rgb(196, 67, 67);
+}
