@@ -18,7 +18,8 @@ header .container {
     margin: 0 auto;
     justify-content: space-between;
     align-items: flex-start;
-    background-image: url("images/jp_topoFundo.jpg")
+    background-image: url("images/jp_topoFundo.jpg");
+    padding: 30px 0;
 }
 
 nav{
