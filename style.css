@@ -98,7 +98,7 @@ h2{
 .film_description_container{ 
 }
 
-#section2{
+#section2, sectionCriadorDinossauro{
     margin-top:40px;
 }
 #section2 h1{
@@ -141,4 +141,33 @@ footer .container{
     margin: 20px auto;
     font-weight:bolder;
     font-size:20px;
+}
+
+.escondido {
+    display:none;
+}
+
+#section2 h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    margin:10px 0;
+    display: block;
+    line-height: 20px;
+    padding:5px;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: #333333;
+    color:white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #666666;
 }
